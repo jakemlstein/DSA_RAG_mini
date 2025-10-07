@@ -42,7 +42,7 @@ class ChunkingConfig:
     min_chunk_size: int = 100
     use_semantic_splitting: bool = True
     preserve_structure: bool = True
-    chunking_strategy: str = "legal"  # "semantic", "simple", or "legal"
+    chunking_strategy: str = "semantic"  # "semantic", "simple", or "legal"
 
     def __post_init__(self):
         """Validate configuration."""
@@ -191,8 +191,8 @@ class SemanticChunker:
         patterns = [
             r"\n#{1,6}\s+.+?\n",  # Markdown headers
             r"\n\n+",  # Multiple newlines (paragraph breaks)
-            r"\n[-*+]\s+",  # List items
-            r"\n\d+\.\s+",  # Numbered lists
+            # r"\n[-*+]\s+",  # List items
+            # r"\n\d+\.\s+",  # Numbered lists
             r"\n```.*?```\n",  # Code blocks
             r"\n\|\s*.+?\|\s*\n",  # Tables
         ]
