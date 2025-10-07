@@ -215,18 +215,18 @@ class GraphBuilder:
     async def extract_entities_from_chunks(
         self,
         chunks: List[DocumentChunk],
-        extract_companies: bool = True,
-        extract_technologies: bool = True,
-        extract_people: bool = True,
+        extract_articles: bool = True,
+        extract_actors: bool = True,
+        extract_concepts: bool = True,
     ) -> List[DocumentChunk]:
         """
         Extract entities from chunks and add to metadata.
 
         Args:
             chunks: List of document chunks
-            extract_companies: Whether to extract company names
-            extract_technologies: Whether to extract technology terms
-            extract_people: Whether to extract person names
+            extract_articles: Whether to extract article names
+            extract_actors: Whether to extract actor names
+            extract_concepts: Whether to extract concept names
 
         Returns:
             Chunks with entity metadata added
@@ -240,20 +240,17 @@ class GraphBuilder:
 
             content = chunk.content
 
-            # Extract companies
-            if extract_companies:
+            # Extract articles
+            if extract_articles:
                 entities["articles"] = self._extract_articles(content)
 
-            # Extract technologies
-            if extract_technologies:
-                entities["actors"] = self._extract_technologies(content)
+            # Extract actors
+            if extract_actors:
+                entities["actors"] = self._extract_actors(content)
 
-            # Extract people
-            if extract_people:
-                entities["people"] = self._extract_people(content)
-
-            # Extract locations
-            entities["locations"] = self._extract_locations(content)
+            # Extract concepts
+            if extract_concepts:
+                entities["concepts"] = self._extract_concepts(content)
 
             # Create enriched chunk
             enriched_chunk = DocumentChunk(
@@ -278,9 +275,9 @@ class GraphBuilder:
         logger.info("Entity extraction complete")
         return enriched_chunks
 
-    def _extract_companies(self, text: str) -> List[str]:
+    def _extract_articles(self, text: str) -> List[str]:
         """Extract article names from text."""
-        # Known tech companies (extend this list as needed)
+        # Known articles (extend this list as needed)
         articles = {
             "Article 1",
             "Article 2",
@@ -388,8 +385,8 @@ class GraphBuilder:
         text_lower = text.lower()
 
         for article in articles:
-            # Case-insensitive search with word boundaries
-            pattern = r"\b" + re.escape(article.lower()) + r"\b"
+            # Match markdown format: ### **Article N**
+            pattern = r"###\s+\*\*" + re.escape(article.lower()) + r"\*\*"
             if re.search(pattern, text_lower):
                 found_articles.add(article)
 
@@ -450,7 +447,7 @@ class GraphBuilder:
 
     def _extract_concepts(self, text: str) -> List[str]:
         """Extract concept from text."""
-        # Known tech leaders (extend this list as needed)
+        # Known concepts (extend this list as needed)
         concepts = {
             "Reasoned Request",
             "reasoned request",
@@ -541,8 +538,8 @@ class SimpleEntityExtractor:
     def __init__(self):
         """Initialize extractor."""
         self.articles_patterns = [
-            r"\b(?:\*\*Article\d{1,2}\*\*)\b",
-            r"\b(?:\*\*Recital\s\(\d{1,2}\)\*\*)\b",
+            r"###\s+\*\*Article\s+\d{1,2}\*\*",
+            r"###\s+\*\*Recital\s+\(\d{1,2}\)\*\*",
         ]
         self.actors_patterns = [
             r"\b(?:Digital Services Coordinator|Applicant Researcher|Principle Researcher|Data Provider)\b",
@@ -559,7 +556,7 @@ class SimpleEntityExtractor:
             entities["articles"].extend(matches)
 
         # Extract actors
-        for pattern in self.tech_patterns:
+        for pattern in self.actors_patterns:
             matches = re.findall(pattern, text, re.IGNORECASE)
             entities["actors"].extend(matches)
 
