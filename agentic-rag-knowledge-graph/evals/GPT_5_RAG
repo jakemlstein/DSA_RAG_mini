@@ -1,0 +1,34 @@
+- For each applicant researcher:
+  - Proof of affiliation to a “research organisation” (as defined in Directive (EU) 2019/790) (DSA Art. 40(8)(a); Delegated Reg. Art. 8(1)(a)(i)).
+  - A declaration of independence from commercial interests relevant to the project (DSA Art. 40(8)(b); Delegated Reg. Art. 8(1)(a)(ii)).
+  - A commitment to make the research results publicly available free of charge within a reasonable period (DSA Art. 40(8)(g); Delegated Reg. Art. 8(1)(a)(iii)).
+- Disclosure of research funding for the project (DSA Art. 40(8)(c); Delegated Reg. Art. 8(1)(b)).
+- A detailed description of the data requested: format, scope, specific attributes, relevant metadata and data documentation (Delegated Reg. Art. 8(1)(c)).
+- An explanation of necessity and proportionality of the requested access and the research time frames (DSA Art. 40(8)(e); Delegated Reg. Art. 8(1)(d)).
+- Identification of confidentiality, security and personal-data risks and a description of the technical, legal and organisational measures to mitigate them; include suggested access modalities if possible (Delegated Reg. Art. 8(1)(e)).
+- A description of the research activities you will conduct with the data (Delegated Reg. Art. 8(1)(f)).
+- A summary for publication: research topic; the data provider (VLOP/VLOSE) from which data are requested; and a description of the requested data (Delegated Reg. Art. 8(1)(g)).
+
+If personal data are involved or higher-security access is needed, include the following (as applicable)
+- Risk assessment for processing personal data (e.g., a DPIA where applicable) and the envisaged technical and organisational measures (Delegated Reg. Art. 9(4)(a); see also Recital 15).
+- Relevant security controls: network security, encryption, access control, backup, integrity, and incident response (Delegated Reg. Art. 9(4)(b)).
+- Storage period and data destruction plans, where applicable (Delegated Reg. Art. 9(4)(c)).
+- Organisational measures: internal review processes, access restrictions, and information-sharing controls (Delegated Reg. Art. 9(4)(d)).
+- Any proposed contractual clauses (e.g., NDAs, data agreements) setting conditions of access/processing (Delegated Reg. Art. 9(4)(e)).
+- Evidence of training received on data security and personal-data protection by the applicant researchers (Delegated Reg. Art. 9(4)(f)).
+- If a secure processing environment will be used, documentation showing the operator meets the required conditions (Delegated Reg. Art. 9(5)).
+
+Substantive eligibility your application must demonstrate
+- Your project’s purpose fits DSA Article 40(4): it contributes to detecting, identifying and understanding systemic risks in the Union and/or assessing the adequacy, efficiency and impacts of platforms’ risk-mitigation measures (DSA Art. 40(4); Art. 40(8)(f)).
+- You are capable of meeting data security and confidentiality requirements and protecting personal data with appropriate technical and organisational measures (DSA Art. 40(8)(d); Delegated Reg. Art. 8(1)(e)).
+
+Where and how to submit
+- Submit a data access application to the DSC of establishment, or to the DSC of the Member State of your research organisation; the latter will conduct an initial assessment and forward it to the DSC of establishment (DSA Art. 40(9)).
+- Use the DSA data access portal, which serves as the central digital point for the data access process and exchanges among researchers, data providers and DSCs (Delegated Reg. Art. 3(2)(b)).
+
+Personal data you will typically provide in the portal
+- Identity data (e.g., name, user ID), contact information (address, email), and documentation proving affiliation to a research organisation; only what is necessary and proportionate is processed (Delegated Reg. Art. 5(1), 5(3)(a)-(c)).
+
+Notes
+- Platforms must facilitate access for vetted researchers via appropriate interfaces once a reasoned request is issued (DSA Art. 40(7)).
+- If your work only needs publicly accessible data, platforms must give access without undue delay to such data to researchers who meet DSA Art. 40(8)(b)-(e) (independence, funding disclosure, security/confidentiality capability, and necessity/proportionality) (DSA Art. 40(12)).

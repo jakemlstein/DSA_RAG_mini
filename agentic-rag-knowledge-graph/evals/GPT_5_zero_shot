@@ -1,0 +1,97 @@
+If you’re in the EU and want to access VLOP (Very Large Online Platform) data for research under the DSA (Digital Services Act), here’s a breakdown of what you’ll need to submit and what conditions you must satisfy. (This is what is known publicly as of mid-2025.)
+
+Legal & institutional framework
+
+Under Article 40 of the DSA, VLOPs (and VLOSEs) are required to provide researchers access to platform data under certain conditions. 
+ECA Transparency
++2
+Digital Strategy
++2
+
+Access comes in two flavors:
+
+Public data (Article 40(12)) — data already publicly available via the platform’s interface
+
+Non-public data via a “vetted researcher” status (Article 40(4)–(11)) 
+Data Access Portal
++3
+ECA Transparency
++3
+www.hoganlovells.com
++3
+
+A Delegated Act under the DSA, adopted in 2025, defines procedural and technical details for the non-public data access route. 
+Digital Strategy
++3
+www.hoganlovells.com
++3
+EOSC
++3
+
+There is now a DSA Data Access Portal where researchers register, file applications, and track decisions. 
+Data Access Portal
++2
+EOSC
++2
+
+What you must submit / steps in the application
+
+Here’s what you’ll generally need to provide (via the Data Access Portal, and to a Digital Services Coordinator (DSC)) to seek vetted researcher status and data access:
+
+Step / Requirement	What you must supply or demonstrate
+Registration / researcher profile	Register on the DSA Data Access Portal, create your researcher profile. 
+Data Access Portal
+
+Data Access Application (template)	Use the predefined template in the portal to describe your request (which provider, which data, time period, purpose). 
+Data Access Portal
++1
+
+Affiliation with research institution	You must be tied to a non-profit research organization (university, public research institution, or nonprofit doing research) as defined under the DSA. 
+Center for User Rights
++2
+www.hoganlovells.com
++2
+
+Independence from commercial interests	You must show that you are free from undue commercial dependency or conflict with the platform(s) whose data you’re requesting. 
+Center for User Rights
++2
+ECA Transparency
++2
+
+Disclosure of funding	You must openly disclose the funding sources behind your project. 
+ECA Transparency
++2
+www.hoganlovells.com
++2
+
+Purpose / research question tied to systemic risks	You need to argue that your requested data is necessary and proportionate to a research objective that fits under the DSA’s definition of systemic risks (e.g. illegal content, effects on fundamental rights, public discourse, health, minors, etc.). 
+Lexology
++4
+ECA Transparency
++4
+www.hoganlovells.com
++4
+
+Justification of data requested	You must explain why the specific datasets/timeframes are necessary, and why the request is proportionate. Also justify why alternative, less sensitive data won’t suffice. 
+www.hoganlovells.com
++2
+Lexology
++2
+
+Technical and organizational safeguards	You must propose how you will handle data security, confidentiality, minimizing risks, data protection (GDPR compliance), organizational and technical measures (encryption, access control, anonymisation, etc.). 
+www.hoganlovells.com
++2
+ECA Transparency
++2
+
+Commitment to publication / transparency	You must commit to make your research results publicly available, free of charge, within a reasonable period. 
+ECA Transparency
++2
+Center for User Rights
++2
+
+Timelines, scope, data modalities	You need to specify the time period, the data granularity, modalities of access (APIs, batch dumps, etc.), duration of access, etc. 
+www.hoganlovells.com
++2
+Data Access Portal
++2

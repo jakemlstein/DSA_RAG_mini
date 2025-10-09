@@ -1,0 +1,107 @@
+Below is a complete, ready‑to‑submit application to the Digital Services Coordinator (DSC) for vetted‑researcher access to Facebook data under the Digital Services Act (DSA). I have structured it to align with the requirements and purposes set out in Regulation (EU) 2022/2065: the legal basis for data access to vetted researchers (Art. 40(4)), the researcher obligations and assurances (Art. 40(8)(b),(d),(e),(g)), and the systemic‑risk focus (Art. 34(1), 34(2)(a),(b),(d)). Source citations are included inline.
+
+Application for Vetted Researcher Data Access under Article 40 of the DSA
+
+Addressee
+- To: Digital Services Coordinator of establishment for Facebook (provider of a very large online platform)
+- Subject: Application for vetted‑researcher access to Facebook data for research on exposure to “filter bubbles” and their systemic‑risk implications in the Union
+- Applicant: [Full legal name of PI], [Title], [Department/Institute], [University/Research Organization], [Member State]
+- Contact: [Email], [Phone], [Postal address]
+- Project team: [Co‑Investigators’ names, roles, affiliations]. CVs attached.
+
+1) Project title and abstract
+- Title: Measuring Exposure to Filter Bubbles on Facebook and Implications for Systemic Risks in the EU
+- Abstract (200 words max):
+This project will measure and characterize users’ exposure to ideologically homogeneous information environments (“filter bubbles”) on Facebook and assess associations with systemic risks in the Union, including negative effects on fundamental rights, civic discourse and electoral processes, and the influence of design of recommender systems, content moderation systems, and advertisement systems on such risks. We will quantify exposure patterns, analyze their drivers in platform ranking/recommendation, and evaluate the effectiveness of risk‑mitigation measures. The findings will inform regulators, civil society, and platforms about interventions to reduce systemic risks and will be made publicly available in accordance with the DSA and applicable data‑protection law. This research directly serves the purposes of Article 40(4) (research on systemic risks and mitigation) and Article 34 (assessment of actual or foreseeable negative effects), with all access strictly necessary and proportionate to those aims.
+
+Citations: DSA Art. 40(4); Art. 34(1); Art. 34(2)(a),(b),(d)
+
+2) Legal basis and alignment with DSA purposes
+- Legal basis for access: Providers of very large online platforms shall provide access to data to vetted researchers upon a reasoned request from the DSC, for research contributing to the detection, identification, and understanding of systemic risks in the Union and the assessment of the adequacy of risk‑mitigation measures. DSA Art. 40(4)
+- Systemic‑risk focus: The project addresses systemic risks under Art. 34(1), including negative effects for the exercise of fundamental rights, civic discourse, electoral processes, and public security, and examines how such risks are influenced by recommender systems, content‑moderation systems, and advertisement systems. DSA Art. 34(1); Art. 34(2)(a),(b),(d)
+
+3) Research questions and methodology
+- Research questions:
+  1) To what extent are EU users exposed to ideologically homogeneous content on Facebook (filter bubbles)?
+  2) How do recommender‑system outputs and policy/configuration changes correlate with measured homogeneity?
+  3) How do content moderation and ad‑delivery systems affect exposure heterogeneity?
+  4) How effective are platform risk‑mitigation measures at reducing filter bubbles and associated systemic risks?
+- Methods overview:
+  - Construct a privacy‑preserving sample of EU‑based user exposure logs (impressions of posts and ads) with minimal identifiers, to measure diversity/homogeneity over time.
+  - Classify consumed content using platform‑provided labels (news/publisher categories, content type, origin such as friends/pages/groups), and, where available, platform integrity/risk labels; apply transparent, auditable classification pipelines for additional topic/leaning proxies.
+  - Link exposure patterns to changes in recommender‑system parameters or risk‑mitigation rollouts (as available), and to content‑moderation/ads delivery policies.
+  - Evaluate associations with systemic‑risk indicators (e.g., concentration of political content sources; narrowing of topic diversity) in aggregate.
+  - Produce aggregate metrics, reproducible code, and public reporting consistent with data‑protection and confidentiality constraints.
+
+Citations: DSA Art. 34(1); Art. 34(2)(a),(b),(d); Art. 40(4)
+
+4) Necessity and proportionality of requested access
+- Necessity: Measuring exposure to filter bubbles requires impression‑level exposure data (posts/ads actually shown), relevant content attributes, and time‑aligned signals about recommender‑system and policy changes. Without exposure logs, one cannot distinguish available content from consumed content, nor quantify the platform’s contribution to homogeneity. DSA Art. 40(8)(e)
+- Proportionality: We request the minimum data fields and time windows needed to compute exposure‑diversity metrics and link them to system changes. We will use privacy‑preserving identifiers, coarse geographic signals (country only), and aggregation wherever possible. DSA Art. 40(8)(e)
+
+5) Data requested from Facebook (scoped and minimised)
+A. Exposure logs (posts)
+- Fields: Randomized research ID; timestamp (to nearest minute or other privacy‑preserving bucket); country; surface (e.g., Feed, Reels); content identifier; content source type (friend/page/group); platform categorization labels (if available, e.g., news/political/topic categories); whether recommended vs followed; basic delivery metadata (e.g., position/slot bucket).
+- Scope: EU‑based users; stratified random sample sufficient for statistically robust estimates across Member States; rolling 12‑month period, with monthly snapshots.
+B. Exposure logs (ads)
+- Fields: Randomized research ID; timestamp bucket; country; ad creative/campaign category labels (as available); delivery rationale signals (e.g., interest category buckets); impression metadata (slot type).
+- Scope: Same sampling/timeframe as posts.
+C. System and policy signals
+- Recommender‑system change logs and policy/configuration changes that materially affect ranking inputs/outputs; timelines of risk‑mitigation measures relevant to reducing exposure homogeneity.
+D. Content metadata
+- Publisher/page attributes (e.g., media/news classification), integrity/risk labels (if available), language; any platform topic/genre labels used in ranking or transparency reports.
+E. Aggregated outputs
+- Where individual‑level delivery data are too sensitive, we seek access via a secure environment with the ability to export only vetted, privacy‑preserving aggregates.
+
+All access modes, sampling, and field definitions can be refined with Facebook and the DSC to ensure strict necessity and proportionality. DSA Art. 40(4); Art. 40(8)(e)
+
+6) Data security and confidentiality
+- Secure environment: We will access data only within an approved secure environment under provider/DSC‑specified controls, using individual, unique researcher credentials and confidential access modes. We will not attempt to re‑identify users.
+- Protections: Encryption at rest/in transit; strict role‑based access; activity logging; vetted statistical disclosure controls for any aggregates.
+- Governance: Institutional data‑management plan attached; ethics approval/IRB determination attached (or to be provided before access).
+Citations: DSA Art. 40(8)(d)
+
+7) Researcher independence and qualifications
+- Independence: The investigators are independent of commercial interests related to online platforms and of any interests that could unduly influence the research results. Full funding disclosures attached. DSA Art. 40(8)(b)
+- Capability: The team has demonstrated expertise in computational social science, causal inference, privacy‑preserving analytics, and auditing recommender systems. CVs and relevant publications attached.
+
+8) Transparency and public interest dissemination
+- Publication: We will make results publicly available, including methodology and aggregate findings, in accordance with applicable data‑protection law. We will publish preprints and peer‑reviewed articles and share reproducible code and aggregate datasets that do not risk re‑identification. DSA Art. 40(8)(g)
+
+9) Timeline
+- Access period requested: 12 months of data covering [start date] to [end date], plus a 6‑month analysis phase after final data availability.
+- Milestones: Data access setup (Month 1); initial exposure‑diversity metrics (Month 3); system‑change linkage analyses (Month 6); interim report to DSC (Month 9); final public report and academic submissions (Month 18).
+
+10) Expected regulatory value
+- The project will help detect, understand, and assess systemic risks linked to recommender systems, moderation, and ad delivery, and evaluate the adequacy of mitigation measures on Facebook within the EU context. Outputs will support oversight and future audits, and inform platform and policy interventions. DSA Art. 40(4); Art. 34(1); Art. 34(2)(a),(b),(d)
+
+11) Requested action by the DSC
+- We request that the DSC grant vetted‑researcher status to the undersigned and, upon approval, issue a reasoned request to Facebook for the scoped data access described above, specifying the access modality, safeguards, and timelines consistent with necessity and proportionality for systemic‑risk research. DSA Art. 40(4); Art. 40(8)(e)
+
+Attachments
+- Investigator CVs and independence/funding declarations. DSA Art. 40(8)(b)
+- Detailed methodology and analysis plan.
+- Data‑management and security plan. DSA Art. 40(8)(d)
+- Ethics/IRB documentation (if applicable).
+- Publication and dissemination plan. DSA Art. 40(8)(g)
+
+Source citations
+- Regulation (EU) 2022/2065 (Digital Services Act):
+  - Article 40(4): Access to data for vetted researchers upon reasoned request from the DSC, for research on systemic risks and risk‑mitigation measures. (graph_search result: “Providers of very large online platforms shall provide access to data to vetted researchers upon a reasoned request … for research on systemic risks and risk mitigation measures.”)
+  - Article 40(8)(b): Researchers must be independent from commercial interests. (graph_search result)
+  - Article 40(8)(d): Researchers must meet data‑security and confidentiality requirements. (graph_search result)
+  - Article 40(8)(e): Researchers must justify that access and timing are necessary and proportionate for the DSA purposes. (graph_search result)
+  - Article 40(8)(g): Researchers commit to make results publicly available in accordance with data‑protection law. (graph_search result)
+  - Article 34(1): Providers must assess actual or foreseeable negative effects, including for fundamental rights, civic discourse, electoral processes, public security. (graph_search result)
+  - Article 34(2)(a),(b),(d): Systemic‑risk drivers include recommender systems, content‑moderation systems, and advertisement systems. (graph_search result)
+
+Notes on process
+- Under Art. 40(4), the platform provides data only upon a reasoned request from the DSC; this application is therefore directed to the DSC to obtain vetted‑researcher status and to enable the DSC’s reasoned request to Facebook for the specific, necessary, and proportionate access described above.
+
+If you would like, I can tailor the fields and sampling plan to your institution’s security posture, replace placeholders with your team’s details, and produce a DSC‑ready PDF with annexes.
+
+🛠 Tools Used:
+  1. graph_search (query='Digital Services Act Article 40 data access vetted...')
+  2. graph_search (query='DSA Article 40 vetted researchers criteria indepen...')
+  3. graph_search (query='Article 40(4) VLOPs provide access to data to vett...')
+  4. graph_search (query='DSA Article 34 systemic risks categories fundament...')

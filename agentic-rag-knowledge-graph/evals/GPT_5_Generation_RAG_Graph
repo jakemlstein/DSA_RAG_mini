@@ -1,0 +1,103 @@
+Below is a complete, DSC‑ready application for vetted‑researcher access to Facebook data under the Digital Services Act (Regulation (EU) 2022/2065), tailored to study exposure to “filter bubbles” (biased or ideologically homogeneous information environments). It aligns with Article 40(4) (vetted researcher access for systemic‑risk research), Article 40(8) (researcher eligibility and obligations), and Article 34(1)–(2) (scope and drivers of systemic risks). Citations to the DSA and the Commission’s Delegated Regulation on Article 40 data access are included by article and paragraph.
+
+Application for vetted researcher data access under Article 40 DSA
+
+Addressee
+- To: Digital Services Coordinator (DSC) of establishment for Facebook (provider of a very large online platform)
+- Subject: Application for vetted‑researcher data access to study exposure to “filter bubbles” and associated systemic risks in the Union
+- Applicant: [PI name, title], [Department/Institute], [University/Research Organisation], [Member State]
+- Contact: [Email], [Phone], [Postal address]
+- Team: [Co‑Investigators; roles; affiliations]. CVs and disclosures attached.
+
+1) Project title and abstract
+- Title: Measuring Exposure to Filter Bubbles on Facebook and Implications for Systemic Risks in the EU
+- Abstract (≤200 words): We will quantify the extent to which EU users are exposed to ideologically homogeneous information environments (“filter bubbles”) on Facebook and assess associations with systemic risks in the Union, including actual or foreseeable negative effects on fundamental rights, civic discourse, electoral processes, protection of minors and public health, and public security. We will analyze how recommender systems, content‑moderation systems, and advertisement systems contribute to or mitigate such exposure patterns. The project directly serves the purposes of Article 40(4) (research on systemic risks and the adequacy and impacts of mitigation measures) and Article 34(1)–(2) (risk assessment scope and drivers). Outputs will be made publicly available in line with data‑protection law and confidentiality constraints. Citations: DSA Art. 40(4); Art. 34(1); Art. 34(2)(a),(b),(d).
+
+2) Legal basis and fit with DSA purposes
+- Legal basis: Upon a reasoned request from the DSC of establishment, providers of very large online platforms shall provide vetted researchers access to data for the sole purpose of research contributing to the detection, identification and understanding of systemic risks in the Union (Art. 34(1)) and to assessing the adequacy, efficiency and impacts of risk‑mitigation measures (Art. 35) (DSA Art. 40(4)).
+- Systemic‑risk focus: Our research targets systemic risks identified in Art. 34(1), including negative effects on fundamental rights, civic discourse and electoral processes, public security, protection of minors and public health, and examines drivers specified in Art. 34(2): recommender systems, content‑moderation systems, and advertising systems. Citations: DSA Art. 34(1); Art. 34(2)(a),(b),(d).
+
+3) Research questions and methodology
+- RQ1: What is the level and evolution of exposure homogeneity (“filter bubbles”) among EU Facebook users?
+- RQ2: How do recommender‑system outputs and platform policy/configuration changes relate to measured exposure homogeneity?
+- RQ3: How do content‑moderation and advertisement systems affect exposure diversity/homogeneity?
+- RQ4: How effective are platform risk‑mitigation measures at reducing filter bubbles and associated systemic risks?
+- Methods:
+  - Construct a privacy‑preserving, statistically valid sample of EU user exposure logs (impressions of posts and ads) to compute exposure‑diversity metrics over time.
+  - Use platform‑provided content and campaign metadata (e.g., topic/category labels; source type) and auditable classification pipelines for additional topic/leaning proxies.
+  - Time‑align exposure metrics with recommender/policy changes and risk‑mitigation rollouts to assess associations.
+  - Produce only vetted, privacy‑preserving aggregates for dissemination.
+Citations: DSA Art. 34(1), 34(2)(a),(b),(d); Art. 35(1)(d),(e) (testing/adapting algorithmic and advertising systems).
+
+4) Necessity and proportionality of access
+- Necessity: Impression‑level exposure data and relevant metadata are necessary to distinguish available content from content actually shown, quantify homogeneity, and link exposure patterns to system/policy changes. This is strictly for DSA Art. 40(4) purposes; timing and scope are limited to what is essential for systemic‑risk analysis. Citation: DSA Art. 40(8)(e).
+- Proportionality: We request the minimum fields, sampling, and timeframe needed; will employ privacy‑preserving identifiers, coarse geography (country), and secure‑environment access where required. Citations: DSA Art. 40(8)(e); Delegated Regulation Art. 9(3)–(5).
+
+5) Data requested (scoped and minimised)
+- A. Exposure logs (posts)
+  - Fields: Randomized research ID; timestamp bucket; country; surface (Feed, Reels, etc.); content ID; source type (friend/page/group); platform topic/category labels (e.g., news/political/topic, if available); recommended vs followed flag; position/slot bucket.
+  - Scope: EU‑based users; stratified random sample adequate for Member‑State‑level estimates; rolling 12‑month period with monthly snapshots.
+- B. Exposure logs (ads)
+  - Fields: Randomized research ID; timestamp bucket; country; ad category/campaign labels (if available); delivery rationale signals (e.g., interest category buckets); slot type.
+  - Scope: Same sampling/timeframe as posts.
+- C. System and policy signals
+  - High‑level recommender‑system and policy/configuration change logs that materially affect ranking/outputs; timelines of risk‑mitigation measures relevant to exposure diversity.
+- D. Content and account metadata
+  - Publisher/page attributes (e.g., media/news classification), integrity/risk labels (if available), language; topic/genre labels used in ranking/transparency reports.
+- E. Access modality
+  - Access via appropriate interfaces as specified by the DSC (e.g., secure processing environment, APIs), with individual, unique researcher credentials and confidential access modes; export limited to vetted aggregates. Citations: DSA Art. 40(7); Delegated Regulation Art. 9(5).
+- F. Publicly accessible data
+  - Where feasible, complement with public‑interface data to which researchers complying with Art. 40(8)(b)–(e) may receive access without undue delay. Citation: DSA Art. 40(12).
+
+6) Data security and confidentiality
+- Secure processing environment with encryption, role‑based access, activity logging, and disclosure controls; no re‑identification attempts.
+- Documentation of technical/organisational measures attached; training records provided; NDAs/data‑use agreements acceptable. Citations: DSA Art. 40(8)(d); Delegated Regulation Art. 9(4)(e)–(g), 9(5).
+
+7) Researcher eligibility, independence, and transparency
+- Affiliation: Researchers are affiliated with a research organisation. Citation: DSA Art. 40(8)(a).
+- Independence and funding: Each applicant declares independence from relevant commercial interests and discloses funding sources. Citations: DSA Art. 40(8)(b),(c).
+- Public interest dissemination: We commit to make results publicly available free of charge within a reasonable period after completion, subject to data‑protection and rights/interests. Citation: DSA Art. 40(8)(g).
+
+8) Timeline
+- Data coverage: 12 months [start]–[end]; analysis window: 6 months post final delivery.
+- Milestones: Access setup (M1); baseline exposure metrics (M3); linkage to system/policy changes (M6); interim report to DSC (M9); final report and publications (M18).
+
+9) Expected regulatory value
+- Supports detection, understanding, and assessment of systemic risks linked to recommender, moderation, and advertising systems; evaluates adequacy, efficiency and impacts of mitigation measures; informs supervisory and audit activities. Citations: DSA Art. 40(4); Art. 34(1),(2); Art. 35(1).
+
+10) Requested action by the DSC
+- Grant vetted‑researcher status and issue a reasoned request to Facebook for the scoped, necessary and proportionate data access and secure modality, within a reasonable period specified in the request. The reasoned request may include our names and contact details if necessary to enable access. Citations: DSA Art. 40(4); Delegated Regulation Recital (2) and Art. 8(1); knowledge‑graph facts on reasoned request content.
+
+11) Attachments
+- Investigator CVs; independence and funding declarations. Citations: DSA Art. 40(8)(a)–(c).
+- Detailed methodology and analysis plan (risk‑driver alignment per Art. 34(2)(a),(b),(d)).
+- Data‑management and security plan; secure‑environment documentation. Citations: DSA Art. 40(8)(d); Delegated Regulation Art. 9(4)–(5).
+- Draft NDAs/data‑use agreements; training records. Citation: Delegated Regulation Art. 9(4)(e),(f).
+- Publication and dissemination plan. Citation: DSA Art. 40(8)(g).
+
+Notes on access modalities and safeguards
+- Providers shall facilitate access through appropriate interfaces specified in the request, including online databases or APIs (DSA Art. 40(7)).
+- The DSC determines access modalities considering sensitivity, confidentiality, trade secrets, service security, and the information in the application (Delegated Regulation Art. 9(3)–(4)).
+- If direct access would create significant vulnerabilities, we are prepared to use alternative means (aggregations, synthetic views, secure compute) consistent with the DSC’s determination (DSA Art. 40(6); Delegated Regulation Art. 9(5)).
+
+Citations (articles and paragraphs)
+- DSA (Regulation (EU) 2022/2065):
+  - Art. 40(4): Access for vetted researchers upon reasoned request from DSC; sole purpose is systemic‑risk research and assessment of mitigation (vector search).
+  - Art. 40(7): Providers facilitate access via appropriate interfaces (vector search).
+  - Art. 40(8)(a)–(g): Researcher eligibility, independence, funding disclosure, security/confidentiality, necessity/proportionality, purpose fit, and public dissemination (vector search).
+  - Art. 40(10): Termination of access if conditions no longer met (vector search).
+  - Art. 40(12): Access to publicly accessible data for researchers meeting conditions in 40(8)(b)–(e) (vector search).
+  - Art. 34(1): Assess actual/foreseeable negative effects on fundamental rights, civic discourse, electoral processes, public security, protection of minors/public health (graph and vector search).
+  - Art. 34(2)(a),(b),(d): Drivers include recommender systems, content‑moderation systems, and advertising systems (graph and vector search).
+  - Art. 35(1)(d),(e): Testing/adapting algorithmic (including recommender) and advertising systems as mitigation measures (vector search).
+- Commission Delegated Regulation under DSA Art. 40(13) (technical conditions and procedures for data sharing with vetted researchers):
+  - Recital (2): Purpose is to enable access for vetted researchers under Art. 40(4) (vector search).
+  - Art. 6(4): Data provider’s DSA data catalogue and point of contact; link to DSA data access portal (vector search).
+  - Art. 8(1)(c)–(d): Application must describe requested data (format/scope/attributes/metadata) and justify necessity/proportionality and time frames (vector search).
+  - Art. 9(3)–(5): DSC determines access modalities, considering rights/interests, confidentiality, trade secrets; secure processing environments; documentation and safeguards; unique identities and confidential modes (graph and vector search).
+  - Art. 14(3): Independence and conflict‑of‑interest principles for consulted experts (vector search).
+  - Art. 15(1)(a): Provider notifies DSC when access is provided (vector search).
+- Knowledge‑graph facts supporting the above:
+  - DSC may include vetted researchers’ names/contact details in the reasoned request when necessary; the reasoned request implements Art. 40(4) access; access limited to data covered by the request via unique identities and confidential modes; DSC determines access modalities based on sensitivity (graph search).
+
+If you share your team details, dates, and preferred access modality, I can replace placeholders and produce the final DSC submission package (cover letter plus annexes mapped to Article 8 and 9 of the Delegated Regulation).

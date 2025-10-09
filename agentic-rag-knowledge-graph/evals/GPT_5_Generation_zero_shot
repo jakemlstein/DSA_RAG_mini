@@ -1,0 +1,93 @@
+You said:
+Generate an application for access to data from Facebook under the DSA for a research project studying exsposure to "filter bubbles" where individuals are only exposed to biased sample of information.
+ChatGPT said:
+
+Here’s a formal draft you can use or adapt for an application to request data access from Meta (Facebook) under the EU Digital Services Act (DSA) for a research project on exposure to “filter bubbles.”
+Application for Access to Data under Article 40 of the Digital Services Act
+
+To:
+Meta Platforms Ireland Limited
+Data Access Request Team
+[Insert Meta’s official DSA Data Access contact email or portal link]
+
+From:
+Applicant: [Your Name, Title]
+Institution: [University / Research Institute Name]
+Department / Lab: [Department Name / Center for Human-Centered AI Research]
+Contact Email: [Your Institutional Email Address]
+Address: [Institutional Address]
+Date: [Insert Date]
+1. Legal Basis for Request
+
+This application is submitted under Article 40 of the EU Digital Services Act (Regulation (EU) 2022/2065), which grants vetted researchers access to data from Very Large Online Platforms (VLOPs) for the purpose of conducting research that contributes to the detection, identification, and understanding of systemic risks, including those related to disinformation, algorithmic amplification, and societal polarization.
+2. Research Project Overview
+
+Title:
+Understanding Filter Bubbles: Measuring Biased Information Exposure on Facebook
+
+Objective:
+The project seeks to empirically evaluate how Facebook’s content recommendation and ranking systems contribute to “filter bubbles”—environments in which individuals are exposed primarily to ideologically or emotionally homogeneous information.
+
+We aim to:
+
+    Quantify the diversity of information exposure across political, cultural, and social dimensions.
+
+    Assess whether personalization mechanisms amplify or mitigate ideological segregation.
+
+    Identify systemic risks related to disinformation, polarization, and public discourse fragmentation.
+
+3. Public Interest Justification
+
+This research directly addresses systemic risks identified in Article 34(1) of the DSA, specifically:
+
+    The dissemination of illegal content and disinformation,
+
+    Adverse effects on democratic processes, public security, and civic discourse,
+
+    The protection of fundamental rights, including freedom of expression and information pluralism.
+
+The study’s outcomes will inform policymakers, civil society, and platform governance debates about algorithmic transparency and the societal impact of personalized content delivery.
+4. Requested Data Access
+
+We request access to anonymized and aggregate-level data sufficient to analyze the diversity of information exposure patterns across users. Specifically:
+Data Category	Requested Fields / Description	Purpose
+Content exposure logs	Post IDs, Page IDs, timestamps, engagement type (view, like, share), and anonymized user-level exposure data	Measure information diversity and exposure networks
+Content metadata	Source page type, topic category, political orientation (if available), engagement statistics	Assess bias and topical segmentation
+Recommendation and ranking metadata	Information on content delivery parameters (algorithmic weighting or ranking labels where available)	Evaluate systemic amplification biases
+Demographic aggregates	Age group, gender, country, language (aggregated and anonymized)	Control for demographic confounders
+Public Page and Group content archives	Posts and associated metadata from politically or socially oriented public Pages/Groups	Analyze content ecosystems contributing to filter bubbles
+
+We are not requesting personally identifiable information (PII) or direct access to user accounts. All analyses will comply with data protection standards, including GDPR.
+5. Data Protection and Ethical Compliance
+
+    The project will be conducted under the ethical oversight of [University / Institute]’s Research Ethics Committee.
+
+    Data will be stored securely and processed only within the EU.
+
+    Results will be reported only in aggregated and anonymized form.
+
+    We will comply fully with Article 40(12) of the DSA regarding confidentiality, data protection, and responsible use.
+
+6. Research Team
+
+Principal Investigator: [Name, Title]
+Co-Investigators: [List Names, Affiliations]
+Institutional Contact: [Research Office or Legal Department Contact]
+
+All team members are accredited researchers affiliated with recognized EU research institutions and subject to EU data protection and ethics regulations.
+7. Expected Timeline and Outcomes
+
+    Project Duration: [Start Date] – [End Date]
+
+    Expected Deliverables: Peer-reviewed publications, public dataset summaries, and policy briefings.
+
+    Dissemination Plan: Open-access results and anonymized datasets where permissible under DSA and GDPR provisions.
+
+8. Declaration
+
+I declare that all information in this request is accurate and that the data will be used solely for the purposes described above, in compliance with all applicable ethical and legal standards.
+
+Signature:
+[Name]
+[Institution]
+[Date]

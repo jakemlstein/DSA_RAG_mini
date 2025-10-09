@@ -1,0 +1,68 @@
+## Application for Data Access under the Digital Services Act (DSA)
+
+**To:** Digital Services Coordinator of Establishment (for Meta Platforms Ireland Ltd.)
+
+**Applicant:** [Your Name/Research Organization Name]
+**Affiliation:** [Your Research Organization] (as defined in Article 2, point (1), of Directive (EU) 2019/790)
+**Contact:** [Your Email Address], [Your Phone Number]
+
+**Date:** October 26, 2024
+
+**Subject:** Reasoned Request for Data Access from Facebook (Meta Platforms Ireland Ltd.) for Research on "Filter Bubbles" under DSA Article 40.
+
+**1. Research Project Title:** Investigating Exposure to "Filter Bubbles" and their Impact on Information Consumption on Facebook.
+
+**2. Purpose of Research (Article 40(4) DSA):**
+This research project aims to contribute to the detection, identification, and understanding of systemic risks in the Union, specifically focusing on the phenomenon of "filter bubbles" on very large online platforms. The study will assess the adequacy, efficiency, and impacts of Facebook's algorithmic systems in shaping user exposure to information and potentially leading to biased information consumption, a systemic risk identified under Article 34(1)(b) of the DSA related to negative effects on civic discourse and electoral processes, and fundamental rights such as freedom of expression and information.
+
+**3. Description of Research Activities (Article 8(1)(f) of DSA Access Delegated Regulation):**
+Our research will involve a quantitative analysis of user interaction data to model and measure the extent of "filter bubble" exposure. We intend to analyze:
+*   **Individual-level content exposure and engagement histories:** To understand the range and diversity of content users are presented with and interact with.
+*   **Data related to content recommendations:** To investigate how algorithmic recommendations contribute to or mitigate "filter bubble" effects.
+*   **User profile information and relationship networks:** To contextualize content exposure within a user's social graph.
+*   **Interaction data:** Including comments, shares, and other engagements, to assess content resonance and spread within different user groups.
+
+The methodology will include: [Briefly describe your research methods, e.g., "longitudinal analysis," "network analysis," "content analysis"]. The expected results will provide empirical evidence on the prevalence and characteristics of "filter bubbles" on Facebook, contributing to a better understanding of their potential societal impacts.
+
+**4. Data Provider from which data are requested:** Facebook (Meta Platforms Ireland Ltd.)
+
+**5. Description of the Data Requested (Article 8(1)(c) of DSA Access Delegated Regulation):**
+We request access to anonymized and/or pseudonymized data from Facebook for a representative sample of EU users over a [e.g., 12-month] period. The specific data categories requested, which are necessary and proportionate for our research, include:
+*   User-level data on content consumption (views, clicks, time spent) and interactions (likes, comments, shares) with public posts and news content.
+*   Data related to content recommendations, including information on the algorithm's input features and output scores where feasible and anonymized.
+*   Anonymized user demographic information (e.g., age range, gender, EU member state of residence) to enable subgroup analysis.
+*   Anonymized data on user networks (e.g., number of friends/followers, aggregated network characteristics) to study structural aspects of filter bubbles.
+
+**6. Necessity and Proportionality of Data and Data Format (Recital 13 of DSA Access Delegated Regulation, Article 40(8)(e) DSA):**
+The requested data categories are essential for our research as they allow us to analyze individual-level exposure patterns, algorithmic influences, and network effects that contribute to filter bubbles. The anonymized/pseudonymized nature of the data, combined with a focus on aggregated trends and patterns, ensures proportionality while enabling robust scientific inquiry. Data formats should be machine-readable (e.g., JSON, CSV). We confirm that these data are not readily available through other sources in a quality or format suitable for this research.
+
+**7. Identified Risks and Mitigation Measures (Article 8(1)(e) of DSA Access Delegated Regulation, Article 40(8)(d) DSA):**
+We acknowledge the risks related to confidentiality, data security, and personal data protection. To mitigate these risks, we will implement the following technical, legal, and organizational measures:
+*   **Technical Measures:** All data will be stored and processed in a secure processing environment compliant with Article 2, point (20) of Regulation (EU) 2022/868. This environment will have strict access controls, encryption at rest and in transit, and regular security audits.
+*   **Organizational Measures:** All researchers involved have received extensive training on data security and protection of personal data. Access to the data will be granted only to vetted researchers on a need-to-know basis.
+*   **Legal Measures:** We commit to complying with all applicable data protection laws, including Regulation (EU) 2016/679 (GDPR). We are prepared to enter into appropriate contractual clauses, such as non-disclosure agreements and data agreements, to ensure data protection and confidentiality (Article 9(4)(e) of DSA Access Delegated Regulation). We will ensure appropriate transfer mechanisms are in place if data transfer to a third country is involved (Article 10(3) of DSA Access Delegated Regulation).
+
+**8. Vetted Researcher Status and Affiliation (Article 40(8)(a), (b), (c), (d), (e), (f), (g) DSA):**
+*   **Affiliation:** [Your Name] is affiliated with [Your Research Organization], a recognized research organization under Directive (EU) 2019/790.
+*   **Independence:** We confirm our independence from commercial interests.
+*   **Funding:** The funding for this research project is provided by [Source of Funding, e.g., a public grant, a non-profit foundation], as disclosed in this application.
+*   **Capabilities and Measures:** As detailed in point 7, we are capable of fulfilling specific data security and confidentiality requirements and have appropriate technical and organizational measures in place.
+*   **Necessity and Proportionality:** As detailed in point 6, access to the requested data and time frames are necessary and proportionate for the research purpose, contributing to the understanding of systemic risks.
+*   **Research Activities:** The planned research activities will be carried out for the purpose of studying systemic risks as laid down in Article 40(4) of the DSA.
+*   **Public Availability of Results:** We commit to making our research results publicly available free of charge within a reasonable period after completion of the research, subject to the rights and interests of the recipients of the service concerned, and in accordance with Regulation (EU) 2016/679.
+
+**9. Proposed Access Modalities (Article 9 of DSA Access Delegated Regulation):**
+We propose access to the requested data through a secure processing environment provided by [Name of secure processing environment provider, if applicable, otherwise state that your institution will provide it]. If a secure processing environment is deemed necessary, we can provide documentation attesting to its compliance and the operator's capabilities (Article 9(5) of DSA Access Delegated Regulation). We are open to discussing alternative access modalities as determined by the Digital Services Coordinator of establishment, ensuring appropriate safeguards.
+
+**10. Summary of Data Access Application (Article 8(1)(g) of DSA Access Delegated Regulation):**
+*   **Research Topic:** Investigating Exposure to "Filter Bubbles" and their Impact on Information Consumption on Facebook.
+*   **Data Provider:** Facebook (Meta Platforms Ireland Ltd.).
+*   **Description of Data Requested:** Anonymized/pseudonymized user content exposure, interaction, recommendation, demographic, and network data for a representative sample of EU users over a defined period.
+
+We look forward to your positive consideration of this application.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Research Organization]
